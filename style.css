@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container{
+    width: 400px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+}
+
+.container h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.search-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.search-box input{
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-box button{
+    width: 50px;
+    border: none;
+    border-radius: 10px;
+    background: #0077ff;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.search-box button:hover{
+    background: #005fd1;
+    transform: scale(1.05);
+}
+
+#locationBtn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+}
+
+#locationBtn:hover{
+    background: #1f8136;
+}
+
+.weather-box img{
+    width: 120px;
+    height: 120px;
+    margin: 10px 0;
+}
+
+#cityName{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#temperature{
+    font-size: 60px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#condition{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.details div{
+    flex: 1;
+    background: rgba(255,255,255,0.2);
+    padding: 15px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.details div:hover{
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.3);
+}
+
+.details h4{
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.details p{
+    font-size: 22px;
+    font-weight: bold;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Weather App</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌤 Weather Forecast</h1>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="city"
+                placeholder="Enter City Name">
+
+            <button id="searchBtn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <button id="locationBtn">
+             Use Current Location
+        </button>
+
+        <div class="weather-box">
+
+            <h2 id="cityName">Search a City</h2>
+
+            <img
+                id="weatherIcon"
+                src=""
+                alt="Weather Icon">
+
+            <h1 id="temperature">--°C</h1>
+
+            <h3 id="condition">Today's Weather</h3>
+
+            <div class="details">
+
+                <div>
+                    <h4>Humidity</h4>
+                    <p id="humidity">--%</p>
+                </div>
+
+                <div>
+                    <h4>Wind Speed</h4>
+                    <p id="wind">-- km/h</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
