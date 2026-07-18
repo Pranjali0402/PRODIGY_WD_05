@@ -39,5 +39,13 @@ PRODIGY_WD_05/
 - Enhanced my skills in creating responsive and interactive user interfaces.
 - Strengthened my debugging and problem-solving skills while working with API responses.
 
+  ## Screenshots
+
+### Current Location Weather
+![Current Location Weather](screenshot/current-location.png)
+
+### City Weather Search
+![City Weather Search](screenshot/weather.png)
+
 ## Author
 **Pranjali Sonone**
