@@ -42,10 +42,10 @@ PRODIGY_WD_05/
   ## Screenshots
 
 ### Current Location Weather
-![Current Location Weather](screenshot/currentlocation.png)
+![Current Location Weather](Screenshot/current location.png)
 
 ### City Weather Search
-![City Weather Search](screenshot/weather.png)
+![City Weather Search](Screenshot/weather.png)
 
 ## Author
 **Pranjali Sonone**
