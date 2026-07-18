@@ -42,7 +42,7 @@ PRODIGY_WD_05/
   ## Screenshots
 
 ### Current Location Weather
-![Current Location Weather](screenshot/current-location.png)
+![Current Location Weather](screenshot/currentlocation.png)
 
 ### City Weather Search
 ![City Weather Search](screenshot/weather.png)
